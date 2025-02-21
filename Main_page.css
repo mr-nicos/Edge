@@ -1,0 +1,92 @@
+/* Css Style */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 15px 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    gap: 15px;
+}
+.header img {
+    width: 50px;
+    height: auto;
+}
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.header input[type="text"]{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+.header button {
+    background: #004d00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.header button:hover {
+    background: #003300;
+}
+.header select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #004d00;
+    color: white;
+    cursor: pointer;
+}
+.header select option{
+    background: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Inventation  */
+.invitation {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background: orange;
+    padding: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+}
