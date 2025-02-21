@@ -1,0 +1,184 @@
+/* Css Style */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 15px 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    gap: 15px;
+}
+.header img {
+    width: 50px;
+    height: auto;
+}
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.header input[type="text"]{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+.header button {
+    background: #004d00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.header button:hover {
+    background: #003300;
+}
+.header select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #004d00;
+    color: white;
+    cursor: pointer;
+}
+.header select option{
+    background: white;
+    color: black;
+}
+
+/* Navigate Bar */
+.navbar{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.search-bar{
+    display:flex;
+    flex: 1;
+    margin-left: 10px;
+    border: 2px solid purple;
+    padding: 5px;
+    border-radius: 5px;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+}
+.search-bar button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.nav-icons {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    color: green;
+}
+.content {
+    display: flex;
+    padding: 50px;
+}
+
+/* Profile Card */
+.profile-card {
+    flex: 2;
+    background: linear-gradient(to right, blue,green);
+    padding: 30px;
+    position: relative;
+    border-radius: 20px;
+    border: 7px solid #004d00;
+    margin-right: 20px;
+}
+.header1 {
+    width: 100%;
+    height: 100px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    outline: 3px solid #252c25;
+    }
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+    outline: 3px solid #050505;
+}
+.student-info {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.camera-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.side-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+.card {
+    background: gray;
+    height: 120px;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+}
+
+/* Inventation  */
+.invitation {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background: orange;
+    padding: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+}
